@@ -1,7 +1,6 @@
 class Bowman extends Character {
-    constructor() {
-        debugger
-        super(health, level)
+    constructor(name) {
+        super(name);
         this.type = 'Bowman';
         this.attack = 25;
         this.defence = 25;

@@ -1,6 +1,6 @@
 class Undead extends Character {
-    constructor() {
-        super(health, level)
+    constructor(name) {
+        super(name);
         this.type = 'Undead';
         this.attack = 25;
         this.defence = 25;

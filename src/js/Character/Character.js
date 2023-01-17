@@ -1,9 +1,9 @@
 class Character {
-    constructor(name, type, health, level, attack, defence) {
+    constructor(name, type, attack, defence) {
         this.name = name;
         this.type = type;
-        this.health = health;
-        this.level = level;
+        this.health = 100;
+        this.level = 1;
         this.attack = attack;
         this.defence = defence;
 
